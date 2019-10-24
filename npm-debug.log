@@ -1,0 +1,1395 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--scripts-prepend-node-path=auto' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ 'C:\\Users\\Matthew\\Dropbox\\Matthew Personal\\ANU\\COMP4560\\Not Clean Project',
+5 verbose install   [ '@fortawesome/fontawesome-free',
+5 verbose install     'axios',
+5 verbose install     'bootstrap',
+5 verbose install     'cross-env',
+5 verbose install     'jquery',
+5 verbose install     'laravel-mix',
+5 verbose install     'lodash',
+5 verbose install     'popper.js',
+5 verbose install     'resolve-url-loader',
+5 verbose install     'sass',
+5 verbose install     'sass-loader',
+5 verbose install     'select2',
+5 verbose install     'vue' ] ]
+6 info preinstall @
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ '@fortawesome/fontawesome-free@^5.10.2', null ]
+9 verbose cache add name=undefined spec="@fortawesome/fontawesome-free@^5.10.2" args=["@fortawesome/fontawesome-free@^5.10.2",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '@fortawesome/fontawesome-free@^5.10.2',
+10 verbose parsed url   path: '@fortawesome/fontawesome-free@^5.10.2',
+10 verbose parsed url   href: '@fortawesome/fontawesome-free@^5.10.2' }
+11 verbose cache add name="" spec="fortawesome/fontawesome-free@^5.10.2" args=["","fortawesome/fontawesome-free@^5.10.2"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'fortawesome/fontawesome-free@^5.10.2',
+12 verbose parsed url   path: 'fortawesome/fontawesome-free@^5.10.2',
+12 verbose parsed url   href: 'fortawesome/fontawesome-free@^5.10.2' }
+13 verbose cache add name="fortawesome/fontawesome-free" spec="^5.10.2" args=["fortawesome/fontawesome-free","^5.10.2"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '^5.10.2',
+14 verbose parsed url   path: '^5.10.2',
+14 verbose parsed url   href: '^5.10.2' }
+15 verbose addNamed [ 'fortawesome/fontawesome-free', '^5.10.2' ]
+16 verbose addNamed [ null, null ]
+17 verbose cache add [ 'axios@^0.18', null ]
+18 verbose cache add name=undefined spec="axios@^0.18" args=["axios@^0.18",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'axios@^0.18',
+19 verbose parsed url   path: 'axios@^0.18',
+19 verbose parsed url   href: 'axios@^0.18' }
+20 verbose cache add name="axios" spec="^0.18" args=["axios","^0.18"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '^0.18',
+21 verbose parsed url   path: '^0.18',
+21 verbose parsed url   href: '^0.18' }
+22 verbose addNamed [ 'axios', '^0.18' ]
+23 verbose addNamed [ null, null ]
+24 verbose cache add [ 'bootstrap@^4.1.0', null ]
+25 verbose cache add name=undefined spec="bootstrap@^4.1.0" args=["bootstrap@^4.1.0",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'bootstrap@^4.1.0',
+26 verbose parsed url   path: 'bootstrap@^4.1.0',
+26 verbose parsed url   href: 'bootstrap@^4.1.0' }
+27 verbose cache add name="bootstrap" spec="^4.1.0" args=["bootstrap","^4.1.0"]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: '^4.1.0',
+28 verbose parsed url   path: '^4.1.0',
+28 verbose parsed url   href: '^4.1.0' }
+29 verbose addNamed [ 'bootstrap', '^4.1.0' ]
+30 verbose addNamed [ null, null ]
+31 verbose cache add [ 'cross-env@^5.1', null ]
+32 verbose cache add name=undefined spec="cross-env@^5.1" args=["cross-env@^5.1",null]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: 'cross-env@^5.1',
+33 verbose parsed url   path: 'cross-env@^5.1',
+33 verbose parsed url   href: 'cross-env@^5.1' }
+34 verbose cache add name="cross-env" spec="^5.1" args=["cross-env","^5.1"]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: '^5.1',
+35 verbose parsed url   path: '^5.1',
+35 verbose parsed url   href: '^5.1' }
+36 verbose addNamed [ 'cross-env', '^5.1' ]
+37 verbose addNamed [ null, null ]
+38 verbose cache add [ 'jquery@^3.2', null ]
+39 verbose cache add name=undefined spec="jquery@^3.2" args=["jquery@^3.2",null]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: 'jquery@^3.2',
+40 verbose parsed url   path: 'jquery@^3.2',
+40 verbose parsed url   href: 'jquery@^3.2' }
+41 verbose cache add name="jquery" spec="^3.2" args=["jquery","^3.2"]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: '^3.2',
+42 verbose parsed url   path: '^3.2',
+42 verbose parsed url   href: '^3.2' }
+43 verbose addNamed [ 'jquery', '^3.2' ]
+44 verbose addNamed [ null, null ]
+45 verbose cache add [ 'laravel-mix@^4.0.7', null ]
+46 verbose cache add name=undefined spec="laravel-mix@^4.0.7" args=["laravel-mix@^4.0.7",null]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: 'laravel-mix@^4.0.7',
+47 verbose parsed url   path: 'laravel-mix@^4.0.7',
+47 verbose parsed url   href: 'laravel-mix@^4.0.7' }
+48 verbose cache add name="laravel-mix" spec="^4.0.7" args=["laravel-mix","^4.0.7"]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: '^4.0.7',
+49 verbose parsed url   path: '^4.0.7',
+49 verbose parsed url   href: '^4.0.7' }
+50 verbose addNamed [ 'laravel-mix', '^4.0.7' ]
+51 verbose addNamed [ null, null ]
+52 verbose cache add [ 'lodash@^4.17.5', null ]
+53 verbose cache add name=undefined spec="lodash@^4.17.5" args=["lodash@^4.17.5",null]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: 'lodash@^4.17.5',
+54 verbose parsed url   path: 'lodash@^4.17.5',
+54 verbose parsed url   href: 'lodash@^4.17.5' }
+55 verbose cache add name="lodash" spec="^4.17.5" args=["lodash","^4.17.5"]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: '^4.17.5',
+56 verbose parsed url   path: '^4.17.5',
+56 verbose parsed url   href: '^4.17.5' }
+57 verbose addNamed [ 'lodash', '^4.17.5' ]
+58 verbose addNamed [ null, null ]
+59 verbose cache add [ 'popper.js@^1.12', null ]
+60 verbose cache add name=undefined spec="popper.js@^1.12" args=["popper.js@^1.12",null]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: 'popper.js@^1.12',
+61 verbose parsed url   path: 'popper.js@^1.12',
+61 verbose parsed url   href: 'popper.js@^1.12' }
+62 verbose cache add name="popper.js" spec="^1.12" args=["popper.js","^1.12"]
+63 verbose parsed url { protocol: null,
+63 verbose parsed url   slashes: null,
+63 verbose parsed url   auth: null,
+63 verbose parsed url   host: null,
+63 verbose parsed url   port: null,
+63 verbose parsed url   hostname: null,
+63 verbose parsed url   hash: null,
+63 verbose parsed url   search: null,
+63 verbose parsed url   query: null,
+63 verbose parsed url   pathname: '^1.12',
+63 verbose parsed url   path: '^1.12',
+63 verbose parsed url   href: '^1.12' }
+64 verbose addNamed [ 'popper.js', '^1.12' ]
+65 verbose addNamed [ null, null ]
+66 verbose cache add [ 'resolve-url-loader@^2.3.1', null ]
+67 verbose cache add name=undefined spec="resolve-url-loader@^2.3.1" args=["resolve-url-loader@^2.3.1",null]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: 'resolve-url-loader@^2.3.1',
+68 verbose parsed url   path: 'resolve-url-loader@^2.3.1',
+68 verbose parsed url   href: 'resolve-url-loader@^2.3.1' }
+69 verbose cache add name="resolve-url-loader" spec="^2.3.1" args=["resolve-url-loader","^2.3.1"]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: '^2.3.1',
+70 verbose parsed url   path: '^2.3.1',
+70 verbose parsed url   href: '^2.3.1' }
+71 verbose addNamed [ 'resolve-url-loader', '^2.3.1' ]
+72 verbose addNamed [ null, null ]
+73 verbose cache add [ 'sass@^1.15.2', null ]
+74 verbose cache add name=undefined spec="sass@^1.15.2" args=["sass@^1.15.2",null]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: 'sass@^1.15.2',
+75 verbose parsed url   path: 'sass@^1.15.2',
+75 verbose parsed url   href: 'sass@^1.15.2' }
+76 verbose cache add name="sass" spec="^1.15.2" args=["sass","^1.15.2"]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: '^1.15.2',
+77 verbose parsed url   path: '^1.15.2',
+77 verbose parsed url   href: '^1.15.2' }
+78 verbose addNamed [ 'sass', '^1.15.2' ]
+79 verbose addNamed [ null, null ]
+80 verbose cache add [ 'sass-loader@^7.1.0', null ]
+81 verbose cache add name=undefined spec="sass-loader@^7.1.0" args=["sass-loader@^7.1.0",null]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: 'sass-loader@^7.1.0',
+82 verbose parsed url   path: 'sass-loader@^7.1.0',
+82 verbose parsed url   href: 'sass-loader@^7.1.0' }
+83 verbose cache add name="sass-loader" spec="^7.1.0" args=["sass-loader","^7.1.0"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '^7.1.0',
+84 verbose parsed url   path: '^7.1.0',
+84 verbose parsed url   href: '^7.1.0' }
+85 verbose addNamed [ 'sass-loader', '^7.1.0' ]
+86 verbose addNamed [ null, null ]
+87 verbose cache add [ 'select2@^4.0', null ]
+88 verbose cache add name=undefined spec="select2@^4.0" args=["select2@^4.0",null]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: 'select2@^4.0',
+89 verbose parsed url   path: 'select2@^4.0',
+89 verbose parsed url   href: 'select2@^4.0' }
+90 verbose cache add name="select2" spec="^4.0" args=["select2","^4.0"]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: '^4.0',
+91 verbose parsed url   path: '^4.0',
+91 verbose parsed url   href: '^4.0' }
+92 verbose addNamed [ 'select2', '^4.0' ]
+93 verbose addNamed [ null, null ]
+94 verbose cache add [ 'vue@^2.5.17', null ]
+95 verbose cache add name=undefined spec="vue@^2.5.17" args=["vue@^2.5.17",null]
+96 verbose parsed url { protocol: null,
+96 verbose parsed url   slashes: null,
+96 verbose parsed url   auth: null,
+96 verbose parsed url   host: null,
+96 verbose parsed url   port: null,
+96 verbose parsed url   hostname: null,
+96 verbose parsed url   hash: null,
+96 verbose parsed url   search: null,
+96 verbose parsed url   query: null,
+96 verbose parsed url   pathname: 'vue@^2.5.17',
+96 verbose parsed url   path: 'vue@^2.5.17',
+96 verbose parsed url   href: 'vue@^2.5.17' }
+97 verbose cache add name="vue" spec="^2.5.17" args=["vue","^2.5.17"]
+98 verbose parsed url { protocol: null,
+98 verbose parsed url   slashes: null,
+98 verbose parsed url   auth: null,
+98 verbose parsed url   host: null,
+98 verbose parsed url   port: null,
+98 verbose parsed url   hostname: null,
+98 verbose parsed url   hash: null,
+98 verbose parsed url   search: null,
+98 verbose parsed url   query: null,
+98 verbose parsed url   pathname: '^2.5.17',
+98 verbose parsed url   path: '^2.5.17',
+98 verbose parsed url   href: '^2.5.17' }
+99 verbose addNamed [ 'vue', '^2.5.17' ]
+100 verbose addNamed [ null, null ]
+101 silly lockFile cdbc6b94-tawesome-fontawesome-free-5-10-2 fortawesome/fontawesome-free@^5.10.2
+102 verbose lock fortawesome/fontawesome-free@^5.10.2 C:\Users\Matthew\AppData\Roaming\npm-cache\cdbc6b94-tawesome-fontawesome-free-5-10-2.lock
+103 silly lockFile 25bc4e20-axios-0-18 axios@^0.18
+104 verbose lock axios@^0.18 C:\Users\Matthew\AppData\Roaming\npm-cache\25bc4e20-axios-0-18.lock
+105 silly lockFile c2c7c5fc-bootstrap-4-1-0 bootstrap@^4.1.0
+106 verbose lock bootstrap@^4.1.0 C:\Users\Matthew\AppData\Roaming\npm-cache\c2c7c5fc-bootstrap-4-1-0.lock
+107 silly lockFile 0b668107-cross-env-5-1 cross-env@^5.1
+108 verbose lock cross-env@^5.1 C:\Users\Matthew\AppData\Roaming\npm-cache\0b668107-cross-env-5-1.lock
+109 silly lockFile f874303d-jquery-3-2 jquery@^3.2
+110 verbose lock jquery@^3.2 C:\Users\Matthew\AppData\Roaming\npm-cache\f874303d-jquery-3-2.lock
+111 silly lockFile 979b5f56-laravel-mix-4-0-7 laravel-mix@^4.0.7
+112 verbose lock laravel-mix@^4.0.7 C:\Users\Matthew\AppData\Roaming\npm-cache\979b5f56-laravel-mix-4-0-7.lock
+113 silly lockFile e0c0ec5b-lodash-4-17-5 lodash@^4.17.5
+114 verbose lock lodash@^4.17.5 C:\Users\Matthew\AppData\Roaming\npm-cache\e0c0ec5b-lodash-4-17-5.lock
+115 silly lockFile 60352c60-popper-js-1-12 popper.js@^1.12
+116 verbose lock popper.js@^1.12 C:\Users\Matthew\AppData\Roaming\npm-cache\60352c60-popper-js-1-12.lock
+117 silly lockFile fe8110bf-resolve-url-loader-2-3-1 resolve-url-loader@^2.3.1
+118 verbose lock resolve-url-loader@^2.3.1 C:\Users\Matthew\AppData\Roaming\npm-cache\fe8110bf-resolve-url-loader-2-3-1.lock
+119 silly lockFile 997214b9-sass-1-15-2 sass@^1.15.2
+120 verbose lock sass@^1.15.2 C:\Users\Matthew\AppData\Roaming\npm-cache\997214b9-sass-1-15-2.lock
+121 silly lockFile 492a5b5b-sass-loader-7-1-0 sass-loader@^7.1.0
+122 verbose lock sass-loader@^7.1.0 C:\Users\Matthew\AppData\Roaming\npm-cache\492a5b5b-sass-loader-7-1-0.lock
+123 silly lockFile c71632ae-select2-4-0 select2@^4.0
+124 verbose lock select2@^4.0 C:\Users\Matthew\AppData\Roaming\npm-cache\c71632ae-select2-4-0.lock
+125 silly lockFile 5d7c3a38-vue-2-5-17 vue@^2.5.17
+126 verbose lock vue@^2.5.17 C:\Users\Matthew\AppData\Roaming\npm-cache\5d7c3a38-vue-2-5-17.lock
+127 silly addNameRange { name: 'fortawesome/fontawesome-free',
+127 silly addNameRange   range: '*',
+127 silly addNameRange   hasData: false }
+128 silly addNameRange { name: 'axios', range: '*', hasData: false }
+129 silly addNameRange { name: 'bootstrap', range: '*', hasData: false }
+130 silly addNameRange { name: 'cross-env', range: '*', hasData: false }
+131 silly addNameRange { name: 'jquery', range: '*', hasData: false }
+132 silly addNameRange { name: 'laravel-mix', range: '*', hasData: false }
+133 silly addNameRange { name: 'lodash', range: '*', hasData: false }
+134 silly addNameRange { name: 'resolve-url-loader', range: '*', hasData: false }
+135 silly addNameRange { name: 'popper.js', range: '*', hasData: false }
+136 silly addNameRange { name: 'sass', range: '*', hasData: false }
+137 silly addNameRange { name: 'select2', range: '*', hasData: false }
+138 silly addNameRange { name: 'sass-loader', range: '*', hasData: false }
+139 silly addNameRange { name: 'vue', range: '*', hasData: false }
+140 verbose url raw fortawesome/fontawesome-free
+141 verbose url resolving [ 'https://registry.npmjs.org/',
+141 verbose url resolving   './fortawesome/fontawesome-free' ]
+142 verbose url resolved https://registry.npmjs.org/fortawesome/fontawesome-free
+143 info trying registry request attempt 1 at 12:20:44
+144 http GET https://registry.npmjs.org/fortawesome/fontawesome-free
+145 verbose url raw axios
+146 verbose url resolving [ 'https://registry.npmjs.org/', './axios' ]
+147 verbose url resolved https://registry.npmjs.org/axios
+148 info trying registry request attempt 1 at 12:20:44
+149 http GET https://registry.npmjs.org/axios
+150 verbose url raw bootstrap
+151 verbose url resolving [ 'https://registry.npmjs.org/', './bootstrap' ]
+152 verbose url resolved https://registry.npmjs.org/bootstrap
+153 info trying registry request attempt 1 at 12:20:44
+154 http GET https://registry.npmjs.org/bootstrap
+155 verbose url raw cross-env
+156 verbose url resolving [ 'https://registry.npmjs.org/', './cross-env' ]
+157 verbose url resolved https://registry.npmjs.org/cross-env
+158 info trying registry request attempt 1 at 12:20:44
+159 http GET https://registry.npmjs.org/cross-env
+160 verbose url raw jquery
+161 verbose url resolving [ 'https://registry.npmjs.org/', './jquery' ]
+162 verbose url resolved https://registry.npmjs.org/jquery
+163 info trying registry request attempt 1 at 12:20:44
+164 http GET https://registry.npmjs.org/jquery
+165 verbose url raw laravel-mix
+166 verbose url resolving [ 'https://registry.npmjs.org/', './laravel-mix' ]
+167 verbose url resolved https://registry.npmjs.org/laravel-mix
+168 info trying registry request attempt 1 at 12:20:44
+169 http GET https://registry.npmjs.org/laravel-mix
+170 verbose url raw resolve-url-loader
+171 verbose url resolving [ 'https://registry.npmjs.org/', './resolve-url-loader' ]
+172 verbose url resolved https://registry.npmjs.org/resolve-url-loader
+173 info trying registry request attempt 1 at 12:20:44
+174 http GET https://registry.npmjs.org/resolve-url-loader
+175 verbose url raw popper.js
+176 verbose url resolving [ 'https://registry.npmjs.org/', './popper.js' ]
+177 verbose url resolved https://registry.npmjs.org/popper.js
+178 info trying registry request attempt 1 at 12:20:44
+179 http GET https://registry.npmjs.org/popper.js
+180 verbose url raw sass
+181 verbose url resolving [ 'https://registry.npmjs.org/', './sass' ]
+182 verbose url resolved https://registry.npmjs.org/sass
+183 info trying registry request attempt 1 at 12:20:44
+184 http GET https://registry.npmjs.org/sass
+185 verbose url raw select2
+186 verbose url resolving [ 'https://registry.npmjs.org/', './select2' ]
+187 verbose url resolved https://registry.npmjs.org/select2
+188 info trying registry request attempt 1 at 12:20:44
+189 http GET https://registry.npmjs.org/select2
+190 verbose url raw sass-loader
+191 verbose url resolving [ 'https://registry.npmjs.org/', './sass-loader' ]
+192 verbose url resolved https://registry.npmjs.org/sass-loader
+193 info trying registry request attempt 1 at 12:20:44
+194 http GET https://registry.npmjs.org/sass-loader
+195 verbose url raw vue
+196 verbose url resolving [ 'https://registry.npmjs.org/', './vue' ]
+197 verbose url resolved https://registry.npmjs.org/vue
+198 info trying registry request attempt 1 at 12:20:44
+199 http GET https://registry.npmjs.org/vue
+200 verbose url raw lodash
+201 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
+202 verbose url resolved https://registry.npmjs.org/lodash
+203 info trying registry request attempt 1 at 12:20:44
+204 verbose etag "6c46b20b79c0e321a253cefd2ec439f0"
+205 http GET https://registry.npmjs.org/lodash
+206 http 200 https://registry.npmjs.org/cross-env
+207 silly registry.get cb [ 200,
+207 silly registry.get   { date: 'Tue, 03 Sep 2019 02:20:44 GMT',
+207 silly registry.get     'content-type': 'application/json',
+207 silly registry.get     'content-length': '119366',
+207 silly registry.get     connection: 'keep-alive',
+207 silly registry.get     'set-cookie': [ '__cfduid=d13f0ea25aa634e10448147ecb538d6481567477244; expires=Wed, 02-Sep-20 02:20:44 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+207 silly registry.get     'cf-cache-status': 'HIT',
+207 silly registry.get     'cache-control': 'max-age=300',
+207 silly registry.get     'cf-ray': '51043f0cbee1d732-SYD',
+207 silly registry.get     'accept-ranges': 'bytes',
+207 silly registry.get     age: '2585',
+207 silly registry.get     etag: '"93b245b30b96a54cd8427c0695b09b55"',
+207 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+207 silly registry.get     'last-modified': 'Sat, 31 Aug 2019 18:29:32 GMT',
+207 silly registry.get     vary: 'accept-encoding, accept',
+207 silly registry.get     'x-amz-meta-rev': '390-9d8725b4a5885782219b6f5cfc6508c6',
+207 silly registry.get     server: 'cloudflare' } ]
+208 http 200 https://registry.npmjs.org/bootstrap
+209 silly registry.get cb [ 200,
+209 silly registry.get   { date: 'Tue, 03 Sep 2019 02:20:44 GMT',
+209 silly registry.get     'content-type': 'application/json',
+209 silly registry.get     'content-length': '199345',
+209 silly registry.get     connection: 'keep-alive',
+209 silly registry.get     'set-cookie': [ '__cfduid=d3fabd4e8a78a3abbb3fd66fad1cbb8181567477244; expires=Wed, 02-Sep-20 02:20:44 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+209 silly registry.get     'cf-cache-status': 'HIT',
+209 silly registry.get     'cache-control': 'max-age=300',
+209 silly registry.get     'cf-ray': '51043f0cb9fada46-SYD',
+209 silly registry.get     'accept-ranges': 'bytes',
+209 silly registry.get     age: '3256',
+209 silly registry.get     etag: '"191b34773ff5cf145ab13d4c2cfc1fb2"',
+209 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+209 silly registry.get     'last-modified': 'Fri, 22 Mar 2019 02:13:40 GMT',
+209 silly registry.get     vary: 'accept-encoding, accept',
+209 silly registry.get     'x-amz-meta-rev': '436-f76f48e4590af7a14643e6a669d1f405',
+209 silly registry.get     server: 'cloudflare' } ]
+210 http 200 https://registry.npmjs.org/axios
+211 silly registry.get cb [ 200,
+211 silly registry.get   { date: 'Tue, 03 Sep 2019 02:20:44 GMT',
+211 silly registry.get     'content-type': 'application/json',
+211 silly registry.get     'content-length': '139994',
+211 silly registry.get     connection: 'keep-alive',
+211 silly registry.get     'set-cookie': [ '__cfduid=dd706852e7b40a494f28b4acd9877ebfe1567477244; expires=Wed, 02-Sep-20 02:20:44 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+211 silly registry.get     'cf-cache-status': 'HIT',
+211 silly registry.get     'cache-control': 'max-age=300',
+211 silly registry.get     'cf-ray': '51043f0cb9c2d6a9-SYD',
+211 silly registry.get     'accept-ranges': 'bytes',
+211 silly registry.get     age: '2891',
+211 silly registry.get     etag: '"ce96cab5a8c46adcdcbb214e716a2b21"',
+211 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+211 silly registry.get     'last-modified': 'Sat, 31 Aug 2019 15:54:29 GMT',
+211 silly registry.get     vary: 'accept-encoding, accept',
+211 silly registry.get     'x-amz-meta-rev': '691-a4dd671919fa14d3e6127d5b8d1a2623',
+211 silly registry.get     server: 'cloudflare' } ]
+212 http 200 https://registry.npmjs.org/jquery
+213 silly registry.get cb [ 200,
+213 silly registry.get   { date: 'Tue, 03 Sep 2019 02:20:44 GMT',
+213 silly registry.get     'content-type': 'application/json',
+213 silly registry.get     'content-length': '105877',
+213 silly registry.get     connection: 'keep-alive',
+213 silly registry.get     'set-cookie': [ '__cfduid=d72a5fac2f55f0336bf7a70d061d265b81567477244; expires=Wed, 02-Sep-20 02:20:44 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+213 silly registry.get     'cf-cache-status': 'HIT',
+213 silly registry.get     'cache-control': 'max-age=300',
+213 silly registry.get     'cf-ray': '51043f0cba81d6a5-SYD',
+213 silly registry.get     'accept-ranges': 'bytes',
+213 silly registry.get     age: '7023',
+213 silly registry.get     etag: '"0be2553cde98de8408c133381517a6c3"',
+213 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+213 silly registry.get     'last-modified': 'Wed, 01 May 2019 21:19:45 GMT',
+213 silly registry.get     vary: 'accept-encoding, accept',
+213 silly registry.get     'x-amz-meta-rev': '641-d479b5a1e4eb22a550eed48559b0c163',
+213 silly registry.get     server: 'cloudflare' } ]
+214 silly addNameRange number 2 { name: 'axios', range: '*', hasData: true }
+215 silly addNameRange versions [ 'axios',
+215 silly addNameRange   [ '0.1.0',
+215 silly addNameRange     '0.2.0',
+215 silly addNameRange     '0.2.1',
+215 silly addNameRange     '0.2.2',
+215 silly addNameRange     '0.3.0',
+215 silly addNameRange     '0.3.1',
+215 silly addNameRange     '0.4.0',
+215 silly addNameRange     '0.4.1',
+215 silly addNameRange     '0.4.2',
+215 silly addNameRange     '0.5.0',
+215 silly addNameRange     '0.5.1',
+215 silly addNameRange     '0.5.2',
+215 silly addNameRange     '0.5.3',
+215 silly addNameRange     '0.5.4',
+215 silly addNameRange     '0.6.0',
+215 silly addNameRange     '0.7.0',
+215 silly addNameRange     '0.8.0',
+215 silly addNameRange     '0.8.1',
+215 silly addNameRange     '0.9.0',
+215 silly addNameRange     '0.9.1',
+215 silly addNameRange     '0.10.0',
+215 silly addNameRange     '0.11.0',
+215 silly addNameRange     '0.11.1',
+215 silly addNameRange     '0.12.0',
+215 silly addNameRange     '0.13.0',
+215 silly addNameRange     '0.13.1',
+215 silly addNameRange     '0.14.0',
+215 silly addNameRange     '0.15.0',
+215 silly addNameRange     '0.15.1',
+215 silly addNameRange     '0.15.2',
+215 silly addNameRange     '0.15.3',
+215 silly addNameRange     '0.16.0',
+215 silly addNameRange     '0.16.1',
+215 silly addNameRange     '0.16.2',
+215 silly addNameRange     '0.17.0',
+215 silly addNameRange     '0.17.1',
+215 silly addNameRange     '0.18.0',
+215 silly addNameRange     '0.19.0-beta.1',
+215 silly addNameRange     '0.19.0',
+215 silly addNameRange     '0.18.1' ] ]
+216 verbose addNamed [ 'axios', '0.19.0' ]
+217 verbose addNamed [ '0.19.0', '0.19.0' ]
+218 silly lockFile 0cfa6e1f-axios-0-19-0 axios@0.19.0
+219 verbose lock axios@0.19.0 C:\Users\Matthew\AppData\Roaming\npm-cache\0cfa6e1f-axios-0-19-0.lock
+220 silly addNameRange number 2 { name: 'cross-env', range: '*', hasData: true }
+221 silly addNameRange versions [ 'cross-env',
+221 silly addNameRange   [ '1.0.0',
+221 silly addNameRange     '1.0.1',
+221 silly addNameRange     '1.0.2',
+221 silly addNameRange     '1.0.3',
+221 silly addNameRange     '1.0.4',
+221 silly addNameRange     '1.0.5',
+221 silly addNameRange     '1.0.6',
+221 silly addNameRange     '1.0.7',
+221 silly addNameRange     '1.0.8',
+221 silly addNameRange     '2.0.0',
+221 silly addNameRange     '2.0.1',
+221 silly addNameRange     '3.0.0',
+221 silly addNameRange     '3.1.0',
+221 silly addNameRange     '3.1.1',
+221 silly addNameRange     '3.1.2',
+221 silly addNameRange     '3.1.3',
+221 silly addNameRange     '3.1.4',
+221 silly addNameRange     '3.2.0',
+221 silly addNameRange     '3.2.1',
+221 silly addNameRange     '3.2.2',
+221 silly addNameRange     '3.2.3',
+221 silly addNameRange     '3.2.4',
+221 silly addNameRange     '4.0.0-beta.0',
+221 silly addNameRange     '4.0.0',
+221 silly addNameRange     '5.0.0-beta.0',
+221 silly addNameRange     '5.0.0',
+221 silly addNameRange     '5.0.1',
+221 silly addNameRange     '5.0.2',
+221 silly addNameRange     '5.0.3',
+221 silly addNameRange     '5.0.4',
+221 silly addNameRange     '5.0.5',
+221 silly addNameRange     '5.1.0',
+221 silly addNameRange     '5.1.1',
+221 silly addNameRange     '5.1.2',
+221 silly addNameRange     '5.1.3',
+221 silly addNameRange     '5.1.4',
+221 silly addNameRange     '5.1.5',
+221 silly addNameRange     '5.1.6',
+221 silly addNameRange     '5.2.0',
+221 silly addNameRange     '5.2.1' ] ]
+222 verbose addNamed [ 'cross-env', '5.2.1' ]
+223 verbose addNamed [ '5.2.1', '5.2.1' ]
+224 silly lockFile 46210842-cross-env-5-2-1 cross-env@5.2.1
+225 verbose lock cross-env@5.2.1 C:\Users\Matthew\AppData\Roaming\npm-cache\46210842-cross-env-5-2-1.lock
+226 silly addNameRange number 2 { name: 'bootstrap', range: '*', hasData: true }
+227 silly addNameRange versions [ 'bootstrap',
+227 silly addNameRange   [ '0.0.1',
+227 silly addNameRange     '0.0.2',
+227 silly addNameRange     '3.1.1',
+227 silly addNameRange     '3.2.0',
+227 silly addNameRange     '3.3.0',
+227 silly addNameRange     '3.3.1',
+227 silly addNameRange     '3.3.2',
+227 silly addNameRange     '3.3.4',
+227 silly addNameRange     '3.3.5',
+227 silly addNameRange     '3.3.6',
+227 silly addNameRange     '4.0.0-alpha.2',
+227 silly addNameRange     '3.3.7',
+227 silly addNameRange     '4.0.0-alpha.3',
+227 silly addNameRange     '4.0.0-alpha.4',
+227 silly addNameRange     '4.0.0-alpha.5',
+227 silly addNameRange     '4.0.0-alpha.6',
+227 silly addNameRange     '4.0.0-beta',
+227 silly addNameRange     '4.0.0-beta.2',
+227 silly addNameRange     '4.0.0-beta.3',
+227 silly addNameRange     '4.0.0',
+227 silly addNameRange     '4.1.0',
+227 silly addNameRange     '4.1.1',
+227 silly addNameRange     '4.1.2',
+227 silly addNameRange     '4.1.3',
+227 silly addNameRange     '3.4.0',
+227 silly addNameRange     '4.2.1',
+227 silly addNameRange     '4.3.0',
+227 silly addNameRange     '3.4.1',
+227 silly addNameRange     '4.3.1' ] ]
+228 verbose addNamed [ 'bootstrap', '4.3.1' ]
+229 verbose addNamed [ '4.3.1', '4.3.1' ]
+230 silly lockFile eba6146b-bootstrap-4-3-1 bootstrap@4.3.1
+231 verbose lock bootstrap@4.3.1 C:\Users\Matthew\AppData\Roaming\npm-cache\eba6146b-bootstrap-4-3-1.lock
+232 http 200 https://registry.npmjs.org/resolve-url-loader
+233 silly registry.get cb [ 200,
+233 silly registry.get   { date: 'Tue, 03 Sep 2019 02:20:45 GMT',
+233 silly registry.get     'content-type': 'application/json',
+233 silly registry.get     'content-length': '134217',
+233 silly registry.get     connection: 'keep-alive',
+233 silly registry.get     'set-cookie': [ '__cfduid=d5b0344a0d6985a5b93c6509e34ca4b7d1567477245; expires=Wed, 02-Sep-20 02:20:45 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+233 silly registry.get     'cf-cache-status': 'HIT',
+233 silly registry.get     'cache-control': 'max-age=300',
+233 silly registry.get     'cf-ray': '51043f0d6b52da46-SYD',
+233 silly registry.get     'accept-ranges': 'bytes',
+233 silly registry.get     age: '5304',
+233 silly registry.get     etag: '"bdb9c08fdd7c5e4904529c1b884a9422"',
+233 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+233 silly registry.get     'last-modified': 'Wed, 03 Apr 2019 22:11:31 GMT',
+233 silly registry.get     vary: 'accept-encoding, accept',
+233 silly registry.get     'x-amz-meta-rev': '71-574350e2e98b3d155351e3fa866a1b3f',
+233 silly registry.get     server: 'cloudflare' } ]
+234 silly lockFile f659b791-npmjs-org-axios-axios-0-19-0-tgz https://registry.npmjs.org/axios/-/axios-0.19.0.tgz
+235 verbose lock https://registry.npmjs.org/axios/-/axios-0.19.0.tgz C:\Users\Matthew\AppData\Roaming\npm-cache\f659b791-npmjs-org-axios-axios-0-19-0-tgz.lock
+236 silly lockFile 70456fd4-rg-cross-env-cross-env-5-2-1-tgz https://registry.npmjs.org/cross-env/-/cross-env-5.2.1.tgz
+237 verbose lock https://registry.npmjs.org/cross-env/-/cross-env-5.2.1.tgz C:\Users\Matthew\AppData\Roaming\npm-cache\70456fd4-rg-cross-env-cross-env-5-2-1-tgz.lock
+238 silly lockFile a75cabbf-rg-bootstrap-bootstrap-4-3-1-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-4.3.1.tgz
+239 verbose lock https://registry.npmjs.org/bootstrap/-/bootstrap-4.3.1.tgz C:\Users\Matthew\AppData\Roaming\npm-cache\a75cabbf-rg-bootstrap-bootstrap-4-3-1-tgz.lock
+240 silly addNameRange number 2 { name: 'jquery', range: '*', hasData: true }
+241 silly addNameRange versions [ 'jquery',
+241 silly addNameRange   [ '1.5.1',
+241 silly addNameRange     '1.6.2',
+241 silly addNameRange     '1.6.3',
+241 silly addNameRange     '1.7.2',
+241 silly addNameRange     '1.7.3',
+241 silly addNameRange     '1.8.2',
+241 silly addNameRange     '1.8.3',
+241 silly addNameRange     '2.1.0-beta2',
+241 silly addNameRange     '2.1.0-beta3',
+241 silly addNameRange     '1.11.0-beta3',
+241 silly addNameRange     '1.11.0-rc1',
+241 silly addNameRange     '2.1.0-rc1',
+241 silly addNameRange     '1.11.0',
+241 silly addNameRange     '2.1.0',
+241 silly addNameRange     '2.1.1-beta1',
+241 silly addNameRange     '1.11.1-beta1',
+241 silly addNameRange     '2.1.1-rc1',
+241 silly addNameRange     '1.11.1-rc1',
+241 silly addNameRange     '2.1.1-rc2',
+241 silly addNameRange     '1.11.1-rc2',
+241 silly addNameRange     '2.1.1',
+241 silly addNameRange     '1.11.1',
+241 silly addNameRange     '1.9.1',
+241 silly addNameRange     '2.1.2',
+241 silly addNameRange     '1.11.2',
+241 silly addNameRange     '2.1.3',
+241 silly addNameRange     '2.1.4',
+241 silly addNameRange     '1.11.3',
+241 silly addNameRange     '3.0.0-alpha1',
+241 silly addNameRange     '1.12.0',
+241 silly addNameRange     '2.2.0',
+241 silly addNameRange     '3.0.0-beta1',
+241 silly addNameRange     '1.12.1',
+241 silly addNameRange     '2.2.1',
+241 silly addNameRange     '1.12.2',
+241 silly addNameRange     '2.2.2',
+241 silly addNameRange     '1.12.3',
+241 silly addNameRange     '2.2.3',
+241 silly addNameRange     '1.12.4',
+241 silly addNameRange     '2.2.4',
+241 silly addNameRange     '3.0.0-rc1',
+241 silly addNameRange     '3.0.0',
+241 silly addNameRange     '3.1.0',
+241 silly addNameRange     '3.1.1',
+241 silly addNameRange     '3.2.0',
+241 silly addNameRange     '3.2.1',
+241 silly addNameRange     '3.3.0',
+241 silly addNameRange     '3.3.1',
+241 silly addNameRange     '3.4.0',
+241 silly addNameRange     '3.4.1' ] ]
+242 verbose addNamed [ 'jquery', '3.4.1' ]
+243 verbose addNamed [ '3.4.1', '3.4.1' ]
+244 silly lockFile bb40127d-jquery-3-4-1 jquery@3.4.1
+245 verbose lock jquery@3.4.1 C:\Users\Matthew\AppData\Roaming\npm-cache\bb40127d-jquery-3-4-1.lock
+246 verbose addRemoteTarball [ 'https://registry.npmjs.org/axios/-/axios-0.19.0.tgz',
+246 verbose addRemoteTarball   '8e09bff3d9122e133f7b8101c8fbdd00ed3d2ab8' ]
+247 verbose addRemoteTarball [ 'https://registry.npmjs.org/cross-env/-/cross-env-5.2.1.tgz',
+247 verbose addRemoteTarball   'b2c76c1ca7add66dc874d11798466094f551b34d' ]
+248 verbose addRemoteTarball [ 'https://registry.npmjs.org/bootstrap/-/bootstrap-4.3.1.tgz',
+248 verbose addRemoteTarball   '280ca8f610504d99d7b6b4bfc4b68cec601704ac' ]
+249 silly lockFile c2d8e8e3-pmjs-org-jquery-jquery-3-4-1-tgz https://registry.npmjs.org/jquery/-/jquery-3.4.1.tgz
+250 verbose lock https://registry.npmjs.org/jquery/-/jquery-3.4.1.tgz C:\Users\Matthew\AppData\Roaming\npm-cache\c2d8e8e3-pmjs-org-jquery-jquery-3-4-1-tgz.lock
+251 info retry fetch attempt 1 at 12:20:44
+252 verbose fetch to= C:\Users\Matthew\AppData\Local\Temp\npm-22544\1567477244666-0.11219101282767951\tmp.tgz
+253 verbose addRemoteTarball [ 'https://registry.npmjs.org/jquery/-/jquery-3.4.1.tgz',
+253 verbose addRemoteTarball   '714f1f8d9dde4bdfa55764ba37ef214630d80ef2' ]
+254 info retry fetch attempt 1 at 12:20:44
+255 verbose fetch to= C:\Users\Matthew\AppData\Local\Temp\npm-22544\1567477244667-0.4573230699170381\tmp.tgz
+256 http GET https://registry.npmjs.org/axios/-/axios-0.19.0.tgz
+257 info retry fetch attempt 1 at 12:20:44
+258 verbose fetch to= C:\Users\Matthew\AppData\Local\Temp\npm-22544\1567477244672-0.8038361053913832\tmp.tgz
+259 info retry fetch attempt 1 at 12:20:44
+260 verbose fetch to= C:\Users\Matthew\AppData\Local\Temp\npm-22544\1567477244667-0.6442081665154546\tmp.tgz
+261 http 200 https://registry.npmjs.org/laravel-mix
+262 silly registry.get cb [ 200,
+262 silly registry.get   { date: 'Tue, 03 Sep 2019 02:20:45 GMT',
+262 silly registry.get     'content-type': 'application/json',
+262 silly registry.get     'content-length': '358384',
+262 silly registry.get     connection: 'keep-alive',
+262 silly registry.get     'set-cookie': [ '__cfduid=dbe12f1b0290ed9d488326ced7f0edbb71567477245; expires=Wed, 02-Sep-20 02:20:45 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+262 silly registry.get     'cf-cache-status': 'HIT',
+262 silly registry.get     'cache-control': 'max-age=300',
+262 silly registry.get     'cf-ray': '51043f0d583bd732-SYD',
+262 silly registry.get     'accept-ranges': 'bytes',
+262 silly registry.get     age: '5296',
+262 silly registry.get     etag: '"22fcf61993db091f4a5bb3dbf97da48c"',
+262 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+262 silly registry.get     'last-modified': 'Mon, 08 Jul 2019 13:20:18 GMT',
+262 silly registry.get     vary: 'accept-encoding, accept',
+262 silly registry.get     'x-amz-meta-rev': '141-bb49675467af13813c9dafd87d41b7ed',
+262 silly registry.get     server: 'cloudflare' } ]
+263 http 200 https://registry.npmjs.org/sass
+264 silly registry.get cb [ 200,
+264 silly registry.get   { date: 'Tue, 03 Sep 2019 02:20:45 GMT',
+264 silly registry.get     'content-type': 'application/json',
+264 silly registry.get     'content-length': '172692',
+264 silly registry.get     connection: 'keep-alive',
+264 silly registry.get     'set-cookie': [ '__cfduid=d1e93eed8a9f83bd1c60fd6157a7ee9411567477245; expires=Wed, 02-Sep-20 02:20:45 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+264 silly registry.get     'cf-cache-status': 'HIT',
+264 silly registry.get     'cache-control': 'max-age=300',
+264 silly registry.get     'cf-ray': '51043f0d7bfbd6a5-SYD',
+264 silly registry.get     'accept-ranges': 'bytes',
+264 silly registry.get     age: '1679',
+264 silly registry.get     etag: '"f47729fbb172394b193396123640cafb"',
+264 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+264 silly registry.get     'last-modified': 'Fri, 16 Aug 2019 21:16:53 GMT',
+264 silly registry.get     vary: 'accept-encoding, accept',
+264 silly registry.get     'x-amz-meta-rev': '132-dbb7c28d4da666ca7f133a9d141c3082',
+264 silly registry.get     server: 'cloudflare' } ]
+265 http GET https://registry.npmjs.org/cross-env/-/cross-env-5.2.1.tgz
+266 http 200 https://registry.npmjs.org/select2
+267 silly registry.get cb [ 200,
+267 silly registry.get   { date: 'Tue, 03 Sep 2019 02:20:45 GMT',
+267 silly registry.get     'content-type': 'application/json',
+267 silly registry.get     'content-length': '48339',
+267 silly registry.get     connection: 'keep-alive',
+267 silly registry.get     'set-cookie': [ '__cfduid=d5b0344a0d6985a5b93c6509e34ca4b7d1567477245; expires=Wed, 02-Sep-20 02:20:45 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+267 silly registry.get     'cf-cache-status': 'HIT',
+267 silly registry.get     'cache-control': 'max-age=300',
+267 silly registry.get     'cf-ray': '51043f0dbbf9da46-SYD',
+267 silly registry.get     'accept-ranges': 'bytes',
+267 silly registry.get     age: '3618',
+267 silly registry.get     etag: '"eaa19773df69669d0331726f117ff838"',
+267 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+267 silly registry.get     'last-modified': 'Wed, 28 Aug 2019 03:12:03 GMT',
+267 silly registry.get     vary: 'accept-encoding, accept',
+267 silly registry.get     'x-amz-meta-rev': '59-b435ff0225c8c6882d41cda4481781a2',
+267 silly registry.get     server: 'cloudflare' } ]
+268 http GET https://registry.npmjs.org/bootstrap/-/bootstrap-4.3.1.tgz
+269 http GET https://registry.npmjs.org/jquery/-/jquery-3.4.1.tgz
+270 http 405 https://registry.npmjs.org/fortawesome/fontawesome-free
+271 silly registry.get cb [ 405,
+271 silly registry.get   { date: 'Tue, 03 Sep 2019 02:20:45 GMT',
+271 silly registry.get     'content-type': 'application/json',
+271 silly registry.get     'content-length': '63',
+271 silly registry.get     connection: 'keep-alive',
+271 silly registry.get     'set-cookie': [ '__cfduid=d734ad68afd2bfb236a00f9368fae4a8b1567477244; expires=Wed, 02-Sep-20 02:20:44 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+271 silly registry.get     'cf-ray': '51043f0cccd96567-SYD',
+271 silly registry.get     allow: 'PUT',
+271 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+271 silly registry.get     server: 'cloudflare' } ]
+272 http 304 https://registry.npmjs.org/lodash
+273 silly registry.get cb [ 304,
+273 silly registry.get   { date: 'Tue, 03 Sep 2019 02:20:45 GMT',
+273 silly registry.get     connection: 'keep-alive',
+273 silly registry.get     'set-cookie': [ '__cfduid=d5b0344a0d6985a5b93c6509e34ca4b7d1567477245; expires=Wed, 02-Sep-20 02:20:45 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+273 silly registry.get     'cf-cache-status': 'HIT',
+273 silly registry.get     'cache-control': 'max-age=300',
+273 silly registry.get     'cf-ray': '51043f0dfc90da46-SYD',
+273 silly registry.get     age: '3665',
+273 silly registry.get     etag: '"6c46b20b79c0e321a253cefd2ec439f0"',
+273 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+273 silly registry.get     'last-modified': 'Sat, 17 Aug 2019 15:27:37 GMT',
+273 silly registry.get     vary: 'accept-encoding, accept',
+273 silly registry.get     'x-amz-meta-rev': '2482-984ce15920192139a516838c93c9bafe',
+273 silly registry.get     server: 'cloudflare' } ]
+274 verbose etag lodash from cache
+275 silly addNameRange number 2 { name: 'resolve-url-loader', range: '*', hasData: true }
+276 silly addNameRange versions [ 'resolve-url-loader',
+276 silly addNameRange   [ '1.0.0',
+276 silly addNameRange     '1.0.1',
+276 silly addNameRange     '1.0.2',
+276 silly addNameRange     '1.0.3',
+276 silly addNameRange     '1.1.0',
+276 silly addNameRange     '1.2.0',
+276 silly addNameRange     '1.3.0',
+276 silly addNameRange     '1.3.1',
+276 silly addNameRange     '1.3.2',
+276 silly addNameRange     '1.4.0',
+276 silly addNameRange     '1.4.1',
+276 silly addNameRange     '1.4.2',
+276 silly addNameRange     '1.4.3',
+276 silly addNameRange     '1.4.4',
+276 silly addNameRange     '1.5.0',
+276 silly addNameRange     '1.6.0',
+276 silly addNameRange     '1.6.1',
+276 silly addNameRange     '2.0.0',
+276 silly addNameRange     '2.0.1',
+276 silly addNameRange     '2.0.2',
+276 silly addNameRange     '2.0.3',
+276 silly addNameRange     '2.1.0',
+276 silly addNameRange     '2.1.1',
+276 silly addNameRange     '2.2.0',
+276 silly addNameRange     '2.2.1',
+276 silly addNameRange     '2.3.0',
+276 silly addNameRange     '0.0.1-experiment-postcss',
+276 silly addNameRange     '3.0.0-alpha.1',
+276 silly addNameRange     '3.0.0-alpha.2',
+276 silly addNameRange     '3.0.0-beta.1',
+276 silly addNameRange     '2.3.1',
+276 silly addNameRange     '3.0.0',
+276 silly addNameRange     '3.0.1',
+276 silly addNameRange     '2.3.2',
+276 silly addNameRange     '3.1.0-beta.1',
+276 silly addNameRange     '3.1.0' ] ]
+277 verbose addNamed [ 'resolve-url-loader', '3.1.0' ]
+278 verbose addNamed [ '3.1.0', '3.1.0' ]
+279 silly lockFile f1369254-resolve-url-loader-3-1-0 resolve-url-loader@3.1.0
+280 verbose lock resolve-url-loader@3.1.0 C:\Users\Matthew\AppData\Roaming\npm-cache\f1369254-resolve-url-loader-3-1-0.lock
+281 http 200 https://registry.npmjs.org/axios/-/axios-0.19.0.tgz
+282 silly lockFile 9a352a51-der-resolve-url-loader-3-1-0-tgz https://registry.npmjs.org/resolve-url-loader/-/resolve-url-loader-3.1.0.tgz
+283 verbose lock https://registry.npmjs.org/resolve-url-loader/-/resolve-url-loader-3.1.0.tgz C:\Users\Matthew\AppData\Roaming\npm-cache\9a352a51-der-resolve-url-loader-3-1-0-tgz.lock
+284 http 200 https://registry.npmjs.org/popper.js
+285 silly registry.get cb [ 200,
+285 silly registry.get   { date: 'Tue, 03 Sep 2019 02:20:45 GMT',
+285 silly registry.get     'content-type': 'application/json',
+285 silly registry.get     'content-length': '301353',
+285 silly registry.get     connection: 'keep-alive',
+285 silly registry.get     'set-cookie': [ '__cfduid=dac0ced76617e3f94a9dddd3c392c3a141567477245; expires=Wed, 02-Sep-20 02:20:45 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+285 silly registry.get     'cf-cache-status': 'HIT',
+285 silly registry.get     'cache-control': 'max-age=300',
+285 silly registry.get     'cf-ray': '51043f0d6b01d6a9-SYD',
+285 silly registry.get     'accept-ranges': 'bytes',
+285 silly registry.get     age: '4294',
+285 silly registry.get     etag: '"46bdbf0ad9be4a5cf6f2dd8a5262529f"',
+285 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+285 silly registry.get     'last-modified': 'Thu, 04 Apr 2019 13:25:58 GMT',
+285 silly registry.get     vary: 'accept-encoding, accept',
+285 silly registry.get     'x-amz-meta-rev': '141-63e0fb40f52c49e7a0a8ab01da9dc6e5',
+285 silly registry.get     server: 'cloudflare' } ]
+286 verbose addRemoteTarball [ 'https://registry.npmjs.org/resolve-url-loader/-/resolve-url-loader-3.1.0.tgz',
+286 verbose addRemoteTarball   '54d8181d33cd1b66a59544d05cadf8e4aa7d37cc' ]
+287 http 200 https://registry.npmjs.org/cross-env/-/cross-env-5.2.1.tgz
+288 info retry fetch attempt 1 at 12:20:44
+289 verbose fetch to= C:\Users\Matthew\AppData\Local\Temp\npm-22544\1567477244755-0.8942985448520631\tmp.tgz
+290 http 200 https://registry.npmjs.org/sass-loader
+291 silly registry.get cb [ 200,
+291 silly registry.get   { date: 'Tue, 03 Sep 2019 02:20:45 GMT',
+291 silly registry.get     'content-type': 'application/json',
+291 silly registry.get     'content-length': '136668',
+291 silly registry.get     connection: 'keep-alive',
+291 silly registry.get     'set-cookie': [ '__cfduid=dbe12f1b0290ed9d488326ced7f0edbb71567477245; expires=Wed, 02-Sep-20 02:20:45 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+291 silly registry.get     'cf-cache-status': 'HIT',
+291 silly registry.get     'cache-control': 'max-age=300',
+291 silly registry.get     'cf-ray': '51043f0de963d732-SYD',
+291 silly registry.get     'accept-ranges': 'bytes',
+291 silly registry.get     age: '2138',
+291 silly registry.get     etag: '"86b4ca404a514e6bb01161df098f7464"',
+291 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+291 silly registry.get     'last-modified': 'Thu, 29 Aug 2019 15:03:00 GMT',
+291 silly registry.get     vary: 'accept-encoding, accept',
+291 silly registry.get     'x-amz-meta-rev': '168-497a48f9f40795b7d66b81578a77ce08',
+291 silly registry.get     server: 'cloudflare' } ]
+292 http 200 https://registry.npmjs.org/bootstrap/-/bootstrap-4.3.1.tgz
+293 http 200 https://registry.npmjs.org/jquery/-/jquery-3.4.1.tgz
+294 silly addNameRange number 2 { name: 'laravel-mix', range: '*', hasData: true }
+295 silly addNameRange versions [ 'laravel-mix',
+295 silly addNameRange   [ '0.1.0',
+295 silly addNameRange     '0.2.0',
+295 silly addNameRange     '0.2.1',
+295 silly addNameRange     '0.2.2',
+295 silly addNameRange     '0.2.3',
+295 silly addNameRange     '0.2.4',
+295 silly addNameRange     '0.2.5',
+295 silly addNameRange     '0.2.7',
+295 silly addNameRange     '0.2.8',
+295 silly addNameRange     '0.2.10',
+295 silly addNameRange     '0.3.0',
+295 silly addNameRange     '0.4.0',
+295 silly addNameRange     '0.5.0',
+295 silly addNameRange     '0.5.1',
+295 silly addNameRange     '0.5.2',
+295 silly addNameRange     '0.5.3',
+295 silly addNameRange     '0.5.4',
+295 silly addNameRange     '0.5.5',
+295 silly addNameRange     '0.5.6',
+295 silly addNameRange     '0.5.7',
+295 silly addNameRange     '0.5.8',
+295 silly addNameRange     '0.5.9',
+295 silly addNameRange     '0.5.10',
+295 silly addNameRange     '0.5.11',
+295 silly addNameRange     '0.5.12',
+295 silly addNameRange     '0.5.13',
+295 silly addNameRange     '0.5.14',
+295 silly addNameRange     '0.5.15',
+295 silly addNameRange     '0.5.16',
+295 silly addNameRange     '0.6.0',
+295 silly addNameRange     '0.6.1',
+295 silly addNameRange     '0.6.2',
+295 silly addNameRange     '0.6.3',
+295 silly addNameRange     '0.7.0',
+295 silly addNameRange     '0.7.1',
+295 silly addNameRange     '0.7.2',
+295 silly addNameRange     '0.7.3',
+295 silly addNameRange     '0.7.4',
+295 silly addNameRange     '0.7.5',
+295 silly addNameRange     '0.8.0',
+295 silly addNameRange     '0.8.1',
+295 silly addNameRange     '0.8.2',
+295 silly addNameRange     '0.8.3',
+295 silly addNameRange     '0.8.4',
+295 silly addNameRange     '0.8.5',
+295 silly addNameRange     '0.8.6',
+295 silly addNameRange     '0.8.7',
+295 silly addNameRange     '0.8.8',
+295 silly addNameRange     '0.8.9',
+295 silly addNameRange     '0.9.0',
+295 silly addNameRange     '0.9.1',
+295 silly addNameRange     '0.9.2',
+295 silly addNameRange     '0.10.0',
+295 silly addNameRange     '0.11.0',
+295 silly addNameRange     '0.11.1',
+295 silly addNameRange     '0.11.2',
+295 silly addNameRange     '0.11.3',
+295 silly addNameRange     '0.11.4',
+295 silly addNameRange     '0.12.0',
+295 silly addNameRange     '0.12.1',
+295 silly addNameRange     '1.0.0-beta.1',
+295 silly addNameRange     '1.0.0-beta.2',
+295 silly addNameRange     '1.0.0',
+295 silly addNameRange     '1.0.1',
+295 silly addNameRange     '1.0.2',
+295 silly addNameRange     '1.0.3',
+295 silly addNameRange     '1.0.4',
+295 silly addNameRange     '1.0.5',
+295 silly addNameRange     '1.0.6',
+295 silly addNameRange     '1.0.7',
+295 silly addNameRange     '1.1.0',
+295 silly addNameRange     '1.1.1',
+295 silly addNameRange     '1.2.0',
+295 silly addNameRange     '1.2.1',
+295 silly addNameRange     '1.2.2',
+295 silly addNameRange     '1.3.0',
+295 silly addNameRange     '1.3.1',
+295 silly addNameRange     '1.4.1',
+295 silly addNameRange     '1.4.2',
+295 silly addNameRange     '1.4.3',
+295 silly addNameRange     '1.4.4',
+295 silly addNameRange     '1.4.5',
+295 silly addNameRange     '1.5.0',
+295 silly addNameRange     '1.5.1',
+295 silly addNameRange     '1.6.0',
+295 silly addNameRange     '1.6.1',
+295 silly addNameRange     '1.6.2',
+295 silly addNameRange     '1.7.0',
+295 silly addNameRange     '1.7.1',
+295 silly addNameRange     '1.7.2',
+295 silly addNameRange     '2.0.0',
+295 silly addNameRange     '2.1.0',
+295 silly addNameRange     '2.1.1',
+295 silly addNameRange     '2.1.2',
+295 silly addNameRange     '2.1.3',
+295 silly addNameRange     '2.1.5',
+295 silly addNameRange     '2.1.6',
+295 silly addNameRange     '2.1.7',
+295 silly addNameRange     '2.1.8',
+295 silly addNameRange     '2.1.9',
+295 silly addNameRange     '2.1.10',
+295 silly addNameRange     '2.1.11',
+295 silly addNameRange     '2.1.12',
+295 silly addNameRange     '2.1.13',
+295 silly addNameRange     '2.1.14',
+295 silly addNameRange     '3.0.0',
+295 silly addNameRange     '4.0.0-beta.1',
+295 silly addNameRange     '4.0.0-beta.2',
+295 silly addNameRange     '4.0.0',
+295 silly addNameRange     '4.0.1',
+295 silly addNameRange     '4.0.2',
+295 silly addNameRange     '4.0.3',
+295 silly addNameRange     '4.0.4',
+295 silly addNameRange     '4.0.5',
+295 silly addNameRange     '4.0.6',
+295 silly addNameRange     '4.0.7',
+295 silly addNameRange     '4.0.8',
+295 silly addNameRange     '4.0.9',
+295 silly addNameRange     '4.0.10',
+295 silly addNameRange     '4.0.11',
+295 silly addNameRange     '4.0.12',
+295 silly addNameRange     '4.0.13',
+295 silly addNameRange     '4.0.14',
+295 silly addNameRange     '4.0.15',
+295 silly addNameRange     '4.0.16',
+295 silly addNameRange     '4.1.0',
+295 silly addNameRange     '4.1.1',
+295 silly addNameRange     '4.1.2' ] ]
+296 verbose addNamed [ 'laravel-mix', '4.1.2' ]
+297 verbose addNamed [ '4.1.2', '4.1.2' ]
+298 silly lockFile 717cbb86-laravel-mix-4-1-2 laravel-mix@4.1.2
+299 verbose lock laravel-mix@4.1.2 C:\Users\Matthew\AppData\Roaming\npm-cache\717cbb86-laravel-mix-4-1-2.lock
+300 silly addNameRange number 2 { name: 'sass', range: '*', hasData: true }
+301 silly addNameRange versions [ 'sass',
+301 silly addNameRange   [ '0.4.0',
+301 silly addNameRange     '0.4.1',
+301 silly addNameRange     '0.4.2',
+301 silly addNameRange     '0.4.3',
+301 silly addNameRange     '0.5.0',
+301 silly addNameRange     '1.0.0-beta.1',
+301 silly addNameRange     '1.0.0-beta.2',
+301 silly addNameRange     '1.0.0-beta.3',
+301 silly addNameRange     '1.0.0-beta.4',
+301 silly addNameRange     '1.0.0-beta.5.1',
+301 silly addNameRange     '1.0.0-beta.5.2',
+301 silly addNameRange     '1.0.0-beta.5.3',
+301 silly addNameRange     '1.0.0-rc.1',
+301 silly addNameRange     '1.0.0',
+301 silly addNameRange     '1.1.0',
+301 silly addNameRange     '1.1.1',
+301 silly addNameRange     '1.2.0',
+301 silly addNameRange     '1.2.1',
+301 silly addNameRange     '1.3.0',
+301 silly addNameRange     '1.3.1',
+301 silly addNameRange     '1.3.2',
+301 silly addNameRange     '1.4.0',
+301 silly addNameRange     '1.5.0',
+301 silly addNameRange     '1.5.1',
+301 silly addNameRange     '1.6.0',
+301 silly addNameRange     '1.6.1',
+301 silly addNameRange     '1.6.2',
+301 silly addNameRange     '1.7.0',
+301 silly addNameRange     '1.7.1',
+301 silly addNameRange     '1.7.2',
+301 silly addNameRange     '1.7.3',
+301 silly addNameRange     '1.8.0',
+301 silly addNameRange     '1.9.0',
+301 silly addNameRange     '1.9.1',
+301 silly addNameRange     '1.9.2',
+301 silly addNameRange     '1.10.0',
+301 silly addNameRange     '1.10.1',
+301 silly addNameRange     '1.10.2',
+301 silly addNameRange     '1.10.3',
+301 silly addNameRange     '1.10.4',
+301 silly addNameRange     '1.11.0',
+301 silly addNameRange     '1.12.0',
+301 silly addNameRange     '1.13.0',
+301 silly addNameRange     '1.13.1',
+301 silly addNameRange     '1.13.2',
+301 silly addNameRange     '1.13.3',
+301 silly addNameRange     '1.13.4',
+301 silly addNameRange     '1.14.0',
+301 silly addNameRange     '1.14.1',
+301 silly addNameRange     '1.14.2',
+301 silly addNameRange     '1.14.3',
+301 silly addNameRange     '1.15.0',
+301 silly addNameRange     '1.15.1',
+301 silly addNameRange     '1.15.2',
+301 silly addNameRange     '1.15.3',
+301 silly addNameRange     '1.16.0-dev',
+301 silly addNameRange     '1.16.0',
+301 silly addNameRange     '1.16.1',
+301 silly addNameRange     '1.17.0',
+301 silly addNameRange     '1.17.1',
+301 silly addNameRange     '1.17.2',
+301 silly addNameRange     '1.17.3',
+301 silly addNameRange     '1.17.4',
+301 silly addNameRange     '1.18.0',
+301 silly addNameRange     '1.19.0',
+301 silly addNameRange     '1.20.1',
+301 silly addNameRange     '1.20.3',
+301 silly addNameRange     '1.21.0',
+301 silly addNameRange     '1.22.0',
+301 silly addNameRange     '1.22.1',
+301 silly addNameRange     '1.22.2',
+301 silly addNameRange     '1.22.3',
+301 silly addNameRange     '1.22.4',
+301 silly addNameRange     '1.22.5',
+301 silly addNameRange     '1.22.6',
+301 silly addNameRange     '1.22.7',
+301 silly addNameRange     '1.22.9',
+301 silly addNameRange     '1.22.10' ] ]
+302 verbose addNamed [ 'sass', '1.22.10' ]
+303 verbose addNamed [ '1.22.10', '1.22.10' ]
+304 silly lockFile e068aeb9-sass-1-22-10 sass@1.22.10
+305 verbose lock sass@1.22.10 C:\Users\Matthew\AppData\Roaming\npm-cache\e068aeb9-sass-1-22-10.lock
+306 silly addNameRange number 2 { name: 'select2', range: '*', hasData: true }
+307 silly addNameRange versions [ 'select2',
+307 silly addNameRange   [ '3.4.3',
+307 silly addNameRange     '3.4.5',
+307 silly addNameRange     '3.5.1',
+307 silly addNameRange     '3.5.1-browserify',
+307 silly addNameRange     '3.5.1-browserify-fix',
+307 silly addNameRange     '3.5.2-browserify',
+307 silly addNameRange     '4.0.0',
+307 silly addNameRange     '4.0.1',
+307 silly addNameRange     '4.0.2-rc.1',
+307 silly addNameRange     '4.0.2',
+307 silly addNameRange     '4.0.3',
+307 silly addNameRange     '4.0.4',
+307 silly addNameRange     '4.0.5',
+307 silly addNameRange     '4.0.6-rc.0',
+307 silly addNameRange     '4.0.6-rc.1',
+307 silly addNameRange     '4.0.6',
+307 silly addNameRange     '4.0.7-rc.0',
+307 silly addNameRange     '4.0.7',
+307 silly addNameRange     '4.0.8',
+307 silly addNameRange     '4.0.9',
+307 silly addNameRange     '4.0.10' ] ]
+308 verbose addNamed [ 'select2', '4.0.10' ]
+309 verbose addNamed [ '4.0.10', '4.0.10' ]
+310 silly lockFile 11c888ab-select2-4-0-10 select2@4.0.10
+311 verbose lock select2@4.0.10 C:\Users\Matthew\AppData\Roaming\npm-cache\11c888ab-select2-4-0-10.lock
+312 http GET https://registry.npmjs.org/resolve-url-loader/-/resolve-url-loader-3.1.0.tgz
+313 silly addNameRange number 2 { name: 'lodash', range: '*', hasData: true }
+314 silly addNameRange versions [ 'lodash',
+314 silly addNameRange   [ '0.1.0',
+314 silly addNameRange     '0.2.0',
+314 silly addNameRange     '0.2.1',
+314 silly addNameRange     '0.2.2',
+314 silly addNameRange     '0.3.0',
+314 silly addNameRange     '0.3.1',
+314 silly addNameRange     '0.3.2',
+314 silly addNameRange     '0.4.0',
+314 silly addNameRange     '0.4.1',
+314 silly addNameRange     '0.4.2',
+314 silly addNameRange     '0.5.0-rc.1',
+314 silly addNameRange     '0.5.0',
+314 silly addNameRange     '0.5.1',
+314 silly addNameRange     '0.5.2',
+314 silly addNameRange     '0.6.0',
+314 silly addNameRange     '0.6.1',
+314 silly addNameRange     '0.7.0',
+314 silly addNameRange     '0.8.0',
+314 silly addNameRange     '0.8.1',
+314 silly addNameRange     '0.8.2',
+314 silly addNameRange     '0.9.0',
+314 silly addNameRange     '0.9.1',
+314 silly addNameRange     '0.9.2',
+314 silly addNameRange     '0.10.0',
+314 silly addNameRange     '1.0.0-rc.1',
+314 silly addNameRange     '1.0.0-rc.2',
+314 silly addNameRange     '1.0.0-rc.3',
+314 silly addNameRange     '1.0.0',
+314 silly addNameRange     '1.0.1',
+314 silly addNameRange     '1.1.0',
+314 silly addNameRange     '1.1.1',
+314 silly addNameRange     '1.2.0',
+314 silly addNameRange     '1.2.1',
+314 silly addNameRange     '1.3.0',
+314 silly addNameRange     '1.3.1',
+314 silly addNameRange     '2.0.0',
+314 silly addNameRange     '2.1.0',
+314 silly addNameRange     '2.2.0',
+314 silly addNameRange     '2.2.1',
+314 silly addNameRange     '2.3.0',
+314 silly addNameRange     '2.4.0',
+314 silly addNameRange     '2.4.1',
+314 silly addNameRange     '3.0.0',
+314 silly addNameRange     '3.0.1',
+314 silly addNameRange     '3.1.0',
+314 silly addNameRange     '3.2.0',
+314 silly addNameRange     '3.3.0',
+314 silly addNameRange     '3.3.1',
+314 silly addNameRange     '3.4.0',
+314 silly addNameRange     '3.5.0',
+314 silly addNameRange     '3.6.0',
+314 silly addNameRange     '1.0.2',
+314 silly addNameRange     '3.7.0',
+314 silly addNameRange     '2.4.2',
+314 silly addNameRange     '3.8.0',
+314 silly addNameRange     '3.9.0',
+314 silly addNameRange     '3.9.1',
+314 silly addNameRange     '3.9.2',
+314 silly addNameRange     '3.9.3',
+314 silly addNameRange     '3.10.0',
+314 silly addNameRange     '3.10.1',
+314 silly addNameRange     '4.0.0',
+314 silly addNameRange     '4.0.1',
+314 silly addNameRange     '4.1.0',
+314 silly addNameRange     '4.2.0',
+314 silly addNameRange     '4.2.1',
+314 silly addNameRange     '4.3.0',
+314 silly addNameRange     '4.4.0',
+314 silly addNameRange     '4.5.0',
+314 silly addNameRange     '4.5.1',
+314 silly addNameRange     '4.6.0',
+314 silly addNameRange     '4.6.1',
+314 silly addNameRange     '4.7.0',
+314 silly addNameRange     '4.8.0',
+314 silly addNameRange     '4.8.1',
+314 silly addNameRange     '4.8.2',
+314 silly addNameRange     '4.9.0',
+314 silly addNameRange     '4.10.0',
+314 silly addNameRange     '4.11.0',
+314 silly addNameRange     '4.11.1',
+314 silly addNameRange     '4.11.2',
+314 silly addNameRange     '4.12.0',
+314 silly addNameRange     '4.13.0',
+314 silly addNameRange     '4.13.1',
+314 silly addNameRange     '4.14.0',
+314 silly addNameRange     '4.14.1',
+314 silly addNameRange     '4.14.2',
+314 silly addNameRange     '4.15.0',
+314 silly addNameRange     '4.16.0',
+314 silly addNameRange     '4.16.1',
+314 silly addNameRange     '4.16.2',
+314 silly addNameRange     '4.16.3',
+314 silly addNameRange     '4.16.4',
+314 silly addNameRange     '4.16.5',
+314 silly addNameRange     '4.16.6',
+314 silly addNameRange     '4.17.0',
+314 silly addNameRange     '4.17.1',
+314 silly addNameRange     '4.17.2',
+314 silly addNameRange     '4.17.3',
+314 silly addNameRange     '4.17.4',
+314 silly addNameRange     '4.17.5',
+314 silly addNameRange     '4.17.9',
+314 silly addNameRange     '4.17.10',
+314 silly addNameRange     '4.17.11',
+314 silly addNameRange     '4.17.12',
+314 silly addNameRange     '4.17.13',
+314 silly addNameRange     '4.17.14',
+314 silly addNameRange     '4.17.15' ] ]
+315 verbose addNamed [ 'lodash', '4.17.15' ]
+316 verbose addNamed [ '4.17.15', '4.17.15' ]
+317 silly lockFile 74a50171-lodash-4-17-15 lodash@4.17.15
+318 verbose lock lodash@4.17.15 C:\Users\Matthew\AppData\Roaming\npm-cache\74a50171-lodash-4-17-15.lock
+319 silly lockFile 7273af4a-aravel-mix-laravel-mix-4-1-2-tgz https://registry.npmjs.org/laravel-mix/-/laravel-mix-4.1.2.tgz
+320 verbose lock https://registry.npmjs.org/laravel-mix/-/laravel-mix-4.1.2.tgz C:\Users\Matthew\AppData\Roaming\npm-cache\7273af4a-aravel-mix-laravel-mix-4-1-2-tgz.lock
+321 silly lockFile 36f3bdf8--npmjs-org-sass-sass-1-22-10-tgz https://registry.npmjs.org/sass/-/sass-1.22.10.tgz
+322 verbose lock https://registry.npmjs.org/sass/-/sass-1.22.10.tgz C:\Users\Matthew\AppData\Roaming\npm-cache\36f3bdf8--npmjs-org-sass-sass-1-22-10-tgz.lock
+323 silly lockFile 2a159042-s-org-select2-select2-4-0-10-tgz https://registry.npmjs.org/select2/-/select2-4.0.10.tgz
+324 verbose lock https://registry.npmjs.org/select2/-/select2-4.0.10.tgz C:\Users\Matthew\AppData\Roaming\npm-cache\2a159042-s-org-select2-select2-4-0-10-tgz.lock
+325 verbose addRemoteTarball [ 'https://registry.npmjs.org/laravel-mix/-/laravel-mix-4.1.2.tgz',
+325 verbose addRemoteTarball   'eaf9999f030d2d45614a83457e0ee3b6f243b56d' ]
+326 verbose addRemoteTarball [ 'https://registry.npmjs.org/sass/-/sass-1.22.10.tgz',
+326 verbose addRemoteTarball   'b9f01440352ba0be5d99fa64a2040b035cc6e5ff' ]
+327 verbose addRemoteTarball [ 'https://registry.npmjs.org/select2/-/select2-4.0.10.tgz',
+327 verbose addRemoteTarball   'c8d4e3e2504f49956b3dfd9018ab1d7bc601a41b' ]
+328 info retry fetch attempt 1 at 12:20:44
+329 verbose fetch to= C:\Users\Matthew\AppData\Local\Temp\npm-22544\1567477244839-0.5397451331373304\tmp.tgz
+330 info retry fetch attempt 1 at 12:20:44
+331 verbose fetch to= C:\Users\Matthew\AppData\Local\Temp\npm-22544\1567477244839-0.5036429248284549\tmp.tgz
+332 info retry fetch attempt 1 at 12:20:44
+333 verbose fetch to= C:\Users\Matthew\AppData\Local\Temp\npm-22544\1567477244840-0.7795633571222425\tmp.tgz
+334 verbose tar unpack C:\Users\Matthew\AppData\Local\Temp\npm-22544\1567477244667-0.4573230699170381\tmp.tgz
+335 silly lockFile ecc43e41-44667-0-4573230699170381-package tar://C:\Users\Matthew\AppData\Local\Temp\npm-22544\1567477244667-0.4573230699170381\package
+336 verbose lock tar://C:\Users\Matthew\AppData\Local\Temp\npm-22544\1567477244667-0.4573230699170381\package C:\Users\Matthew\AppData\Roaming\npm-cache\ecc43e41-44667-0-4573230699170381-package.lock
+337 silly lockFile 07057089-44667-0-4573230699170381-tmp-tgz tar://C:\Users\Matthew\AppData\Local\Temp\npm-22544\1567477244667-0.4573230699170381\tmp.tgz
+338 verbose lock tar://C:\Users\Matthew\AppData\Local\Temp\npm-22544\1567477244667-0.4573230699170381\tmp.tgz C:\Users\Matthew\AppData\Roaming\npm-cache\07057089-44667-0-4573230699170381-tmp-tgz.lock
+339 silly addNameRange number 2 { name: 'fortawesome/fontawesome-free',
+339 silly addNameRange   range: '*',
+339 silly addNameRange   hasData: true }
+340 silly addNameRange versions [ undefined, [] ]
+341 error TypeError: Cannot read property 'latest' of undefined
+341 error     at next (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache.js:687:35)
+341 error     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache.js:675:5
+341 error     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:142:7)
+341 error     at Object.oncomplete (fs.js:107:15)
+342 error If you need help, you may report this log at:
+342 error     <http://github.com/isaacs/npm/issues>
+342 error or email it to:
+342 error     <npm-@googlegroups.com>
+343 error System Windows_NT 6.2.9200
+344 error command "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--scripts-prepend-node-path=auto"
+345 error cwd C:\Users\Matthew\Dropbox\Matthew Personal\ANU\COMP4560\Not Clean Project
+346 error node -v v0.10.13
+347 error npm -v 1.3.2
+348 error type non_object_property_load
+349 verbose exit [ 1, true ]
